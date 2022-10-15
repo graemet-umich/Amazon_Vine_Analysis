@@ -118,7 +118,7 @@ Table. How filtering and splitting the data affect the number of records (see [V
 
 ## Results
 
-The summary statistics are displayed in the table below.
+The summary statistics are displayed in the table below to determine the bias of Vine reviews compared to non-Vine reviews.
 
 - **Total Vine and non-Vine reviews.** 
 - **5-star Vine and non-Vine reviews.**
@@ -133,11 +133,7 @@ The summary statistics are displayed in the table below.
 Table. Summary of number of total reviews, number of 5-star reviews, and percentage of 5-star reviews for Vine reviews and non-Vine reviews. 
 
 ![Two-Sample Test for Equality of Proportions](./Resources/2-sample_prop_test.png)
-## Fix bad name: paid_vine_count
-Fig. A two-sample test for equality of proportions in R. The paid_vine_count is the number of 5-star reviews. The total_count is the total number of reviews. The first element of each vector refers to the number of Vine reviews. The second element of each vector refers to the number of non-Vine reviews. The percentage of 5-star Vine reviews (33%) is significantly less than the percentage of 5-star non-Vine reviews (55.5%) (p=0.0003).
-
-
-### Determine Bias of Vine Reviews
+Fig. A two-sample test for equality of proportions in R. The reviews_5star_count is the number of 5-star reviews. The reviews_total_count is the total number of reviews. The first element of each vector refers to the number of Vine reviews. The second element of each vector refers to the number of non-Vine reviews. The percentage of 5-star Vine reviews (33%) is significantly less than the percentage of 5-star non-Vine reviews (55.5%) (p=0.0003).
 
 
 ## Summary
