@@ -80,13 +80,14 @@ SELECT  (
 ```
 SQL Query. Get the total number of records from each of the database tables.
 
+![Table Counts](./Resources/table_counts.png)
+Table. The number of records in each of the four PostgreSQL tables. 1,363,975 customers generated 2,402,431 reviews of 305,551 grocery products.
+
 
 ### Determine Bias of Vine Reviews
 
 # TODO below
 
-![Table Counts](./Resources/table_counts.png)
-Table. The number of records in each of the four PostgreSQL tables. 1,363,975 customers generated 2,402,431 reviews of 305,551 grocery products.
 
 | State | Number of Records |
 | --- | ---: |
