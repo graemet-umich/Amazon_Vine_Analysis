@@ -15,6 +15,20 @@ The dataset used contains 2,402,431 reviews of grocery products as a tab separat
 
 The first part of the study is cloud-based ETL.
 
+#### Extract
+
+- Obtain the tsv file
+- Store the tsv in an AWS S3 bucket
+
+#### Transform
+
+- Use PySpark in Google Colaboratory to create a DataFrame from the tsv
+- Remove mis-parsed records that occurred during spark.read of the tsv
+- Create four DataFrames to match the four database tables
+
+#### Load
+
+
 - Create a PostgreSQL database on AWS RDS using pgAdmin
 - Create database tables using pgAdmin
 ```
@@ -50,11 +64,6 @@ CREATE TABLE vine_table (
 ```
 Fig. Create database tables with given schema.
 
-- Obtain the tsv file
-- Store the tsv in an AWS S3 bucket
-- Use PySpark in Google Colaboratory to create a DataFrame from the tsv
-- Remove mis-parsed records that occurred during spark.read of the tsv
-- Create four DataFrames to match the four database tables
 - Connect to the AWS RDS instance and write each DataFrame to its database table
 - Inspect each DataFrame for correct schema (see [Amazon_Reviews_ETL.ipynb](https://github.com/graemet-umich/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb))
 - Get table counts using pgAdmin as another check that the database tables were written to correctly
