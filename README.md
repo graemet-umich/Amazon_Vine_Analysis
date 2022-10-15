@@ -1,7 +1,14 @@
-# Amazon_Vine_Analysis
-Module 16: Big Data
+| | | |
+| :--- | :---: | ---: |
+| ![Table Counts](./Resources/AWS_logo.png) | ___________________________ | ![Table Counts](./Resources/PostgreSQL_logo.png) | 
 
-## Overviewe
+
+
+# Amazon Vine Analysis
+Big Data: Analyze Vine Reviews with AWS S3 Scalable Storage in the Cloud and Postgres AWS RDS Managed Relational Database Service
+
+## Overview
+
 
 
 ## Results
