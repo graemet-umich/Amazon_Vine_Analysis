@@ -113,7 +113,7 @@ Table. The number of records in each of the four PostgreSQL tables. 1,363,975 cu
 | Vine reviews | 61 |
 | non-Vine reviews | 28,287 |
 
-Table. How filtering and splitting the data affect the number of records (see [Amazon_Reviews_ETL.ipynb](https://github.com/graemet-umich/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) for details).
+Table. How filtering and splitting the data affect the number of records (see [Vine_Review_Analysis.ipynb](https://github.com/graemet-umich/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) for details).
 
 
 ## Results
