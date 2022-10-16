@@ -122,9 +122,9 @@ Table. How filtering and splitting the data affect the number of records (see [V
 
 The summary statistics are displayed in the table below to determine the bias of Vine Voices reviews compared to non-Vine reviews.
 
-- **Total Vine Voices and non-Vine reviews.** The total number of Vine reviews is 61, and the total number of non-Vine reviews is 28,287.
-- **5-star Vine and non-Vine reviews.** The total number of 5-star Vine reviews is 20, and the total number of 5-star non-Vine reviews is 15,689.
-- **Percentage of 5-star Vine and non-Vine reviews.** The percentage of 5-star Vine reviews is 33%, and the percentage of 5-star non-Vine reviews is 55.5%.
+- **Total reviews from Vine Voices and non-Vine reviewers.** The total number of reviews from Vine Voices is 61, and the total number of reviews from non-Vine reviewers is 28,287.
+- **5-star reviews from Vine Voices and non-Vine reviewers.** The total number of 5-star reviews from Vine Voices is 20, and the total number of 5-star reviews from non-Vine reviewers is 15,689.
+- **Percentage of 5-star reviews from Vine Voices and non-Vine reviewers.** The percentage of 5-star reviews from Vine Voices is 33%, and the percentage of 5-star reviews from non-Vine reviewers is 55.5%.
 
 | Summary | Vine Voices | non-Vine Reviewers |
 | --- | :---: | :---: |
