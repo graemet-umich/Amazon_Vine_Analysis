@@ -69,7 +69,7 @@ CREATE TABLE vine_table (
   verified_purchase TEXT
 );
 ```
-Fig. Create database tables with given schema.
+Fig. SQL script. Create database tables with given schema.
 
 - Connect to the AWS RDS instance and write each DataFrame to its database table
 - Inspect each DataFrame for correct schema (see [Amazon_Reviews_ETL.ipynb](https://github.com/graemet-umich/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb))
@@ -94,7 +94,7 @@ SELECT  (
         FROM   vine_table
         ) AS vine_count
 ```
-SQL Query. Get the total number of records from each of the database tables.
+Fig. SQL Query. Get the total number of records from each of the database tables.
 
 ![Table Counts](./Resources/table_counts.png)
 Table. The number of records in each of the four PostgreSQL tables. 1,363,975 customers generated 2,402,431 reviews of 305,551 grocery products.
@@ -112,7 +112,7 @@ Table. The number of records in each of the four PostgreSQL tables. 1,363,975 cu
 | remove mis-parsed records | 2,402,431 |
 | total_votes >= 20 | 31,518 |
 | helpful to total votes >= 0.5 | 28,348 |
-| Vine reviews | 61 |
+| Vine Voices reviews | 61 |
 | non-Vine reviews | 28,287 |
 
 Table. How filtering and splitting the data affect the number of records (see [Vine_Review_Analysis.ipynb](https://github.com/graemet-umich/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) for details).
@@ -120,24 +120,24 @@ Table. How filtering and splitting the data affect the number of records (see [V
 
 ## Results
 
-The summary statistics are displayed in the table below to determine the bias of Vine reviews compared to non-Vine reviews.
+The summary statistics are displayed in the table below to determine the bias of Vine Voices reviews compared to non-Vine reviews.
 
-- **Total Vine and non-Vine reviews.** The total number of Vine reviews is 61, and the total number of non-Vine reviews is 28,287.
+- **Total Vine Voices and non-Vine reviews.** The total number of Vine reviews is 61, and the total number of non-Vine reviews is 28,287.
 - **5-star Vine and non-Vine reviews.** The total number of 5-star Vine reviews is 20, and the total number of 5-star non-Vine reviews is 15,689.
 - **Percentage of 5-star Vine and non-Vine reviews.** The percentage of 5-star Vine reviews is 33%, and the percentage of 5-star non-Vine reviews is 55.5%.
 
-| Summary | Vine | non-Vine |
+| Summary | Vine Voices | non-Vine Reviewers |
 | --- | :---: | :---: |
 | total reviews | 61 | 28,287 |
 | 5-star reviews | 20 | 15,689 |
 | percentage 5-star | 33% | 55.5% |
 
-Table. Summary of number of total reviews, number of 5-star reviews, and percentage of 5-star reviews for Vine reviews and non-Vine reviews. 
+Table. Summary of the number of total reviews, the number of 5-star reviews, and the percentage of 5-star reviews for Vine Voices and non-Vine reviewers. 
 
-- **Significance 5-star review percentage difference between Vine and non-Vine reviews.** The percentage of 5-star Vine reviews (33%) is significantly less than the percentage of 5-star non-Vine reviews (55.5%) (p=0.0003).
+- **Significance of 5-star review percentage difference between Vine Voices and non-Vine reviewers.** The percentage of 5-star reviews for Vine Voices (33%) is significantly less than the percentage of 5-star reviews for non-Vine reviewers (55.5%) (p=0.0003).
 
 ![Two-Sample Test for Equality of Proportions](./Resources/2-sample_prop_test.png)
-Fig. A two-sample test for equality of proportions in R. The reviews_5star_count is the number of 5-star reviews. The reviews_total_count is the total number of reviews. The first element of each vector refers to the number of Vine reviews. The second element of each vector refers to the number of non-Vine reviews.
+Fig. A two-sample test for equality of proportions in R. The reviews_5star_count is the number of 5-star reviews. The reviews_total_count is the total number of reviews. The first element of each vector refers to the number of reviews from Vine Voices. The second element of each vector refers to the number of reviews from non-Vine reviewers.
 
 
 ## Summary
