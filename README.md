@@ -5,9 +5,11 @@ Big Data: Analyze Vine Reviews with AWS S3 Scalable Storage in the Cloud and Pos
 
 ## Overview
 
+Amazon Vine is a program where Amazon selects what it views as its "best" reviewers and invites them to be Vine Voices. A Vine Voice is not paid, but she is expected to order selected products free of change and is required to submit an insightful, honest, and helpful review, whether the review be negative, neutral, or positive. A Vine Voice review is tagged with a special badge, and other potential buyers may give more consideration to a Vine Voice tagged review.
 
+Companies, such as manufacturers and publishers, who participate in Amazon Vine pay Amazon a small fee and supply Vine Voices with free products that the Vine Voices are required to review. A company may benefit from the program by giving more consideration to a Vine Voice tagged review.
 
-
+In this study, the company SellBy wants to know if there is any bias in review star ratings between Vine Voices and non-Vine reviewers. The specific focus here is on products one buys at grocery stores.
  
 
 ## Methods
@@ -141,3 +143,4 @@ Fig. A two-sample test for equality of proportions in R. The reviews_5star_count
 ## Summary
 
 
+These are novel test products likely not on the market long, so their quality may not be as good as long established products familiar to the public.
