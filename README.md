@@ -120,20 +120,22 @@ Table. How filtering and splitting the data affect the number of records (see [V
 
 The summary statistics are displayed in the table below to determine the bias of Vine reviews compared to non-Vine reviews.
 
-- **Total Vine and non-Vine reviews.** 
-- **5-star Vine and non-Vine reviews.**
-- **Percentage of 5-star Vine and non-Vine reviews.**
+- **Total Vine and non-Vine reviews.** The total number of Vine reviews is 61, and the total number of non-Vine reviews is 28,287.
+- **5-star Vine and non-Vine reviews.** The total number of 5-star Vine reviews is 20, and the total number of 5-star non-Vine reviews is 15,689.
+- **Percentage of 5-star Vine and non-Vine reviews.** The percentage of 5-star Vine reviews is 33%, and the percentage of 5-star non-Vine reviews is 55.5%.
 
 | Summary | Vine | non-Vine |
-| --- | --- | --- |
+| --- | :---: | :---: |
 | total reviews | 61 | 28,287 |
 | 5-star reviews | 20 | 15,689 |
 | percentage 5-star | 33% | 55.5% |
 
 Table. Summary of number of total reviews, number of 5-star reviews, and percentage of 5-star reviews for Vine reviews and non-Vine reviews. 
 
+- **Significance 5-star review percentage difference between Vine and non-Vine reviews.** The percentage of 5-star Vine reviews (33%) is significantly less than the percentage of 5-star non-Vine reviews (55.5%) (p=0.0003).
+
 ![Two-Sample Test for Equality of Proportions](./Resources/2-sample_prop_test.png)
-Fig. A two-sample test for equality of proportions in R. The reviews_5star_count is the number of 5-star reviews. The reviews_total_count is the total number of reviews. The first element of each vector refers to the number of Vine reviews. The second element of each vector refers to the number of non-Vine reviews. The percentage of 5-star Vine reviews (33%) is significantly less than the percentage of 5-star non-Vine reviews (55.5%) (p=0.0003).
+Fig. A two-sample test for equality of proportions in R. The reviews_5star_count is the number of 5-star reviews. The reviews_total_count is the total number of reviews. The first element of each vector refers to the number of Vine reviews. The second element of each vector refers to the number of non-Vine reviews.
 
 
 ## Summary
