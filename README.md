@@ -142,5 +142,16 @@ Fig. A two-sample test for equality of proportions in R. The reviews_5star_count
 
 ## Summary
 
+There is significant bias between the 5-star reviews of Vine Voices and non-Vine reviewers. Vine Voices give grocery products only 5-star ratings 33% of the time, whereas non-Vine reviews give grocery products 5-star reviews 55.5% of the time. A two-sample test for equality of proportions (p=0.003) shows that the Vine Voices percentage is significantly *less* than the non-Vine reviewers percentage. 
 
-These are novel test products likely not on the market long, so their quality may not be as good as long established products familiar to the public.
+There are several reasons why the percentages may differ:
+- Vine Voices have a genuinely different review perspectives (insightful, honest) than non-Vine reviewers.
+- Perhaps Vine Voices are asked to review novel products likely not long on the market. Non-Vine reviewers not only review Vine Voices products, but many more other products more likely to be long established and well-received by the public.
+- There are likely biased company/product affiliated reviewers who indisciminately give 5-star reviews.
+
+To further assess bias between Vine Voices reviews and non-Vine reviews, the following additional studies are proposed:
+- Analyze more reviews by selecting reviews with at least, say, 10 votes instead of the 20 votes required in this study.
+- Repeat this study except check for bias in 1-star, 2-star, 3-star, and 4-star reviews.
+    - If Vine Voices give fewer 4-star reviews, the conclusion of bias is strengthened. 
+    - If Vine Voices give more 1-star and 2-star reviews, the conclusion of bias is strengthened.
+    - If Vine Voices give fewer 1-star reviews, this result is an indication tha Vine Voices are more circumspect than non-Vine reviewers: Vine Voices are unwilling to give products the best or worst possible star rating.
