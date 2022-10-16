@@ -150,7 +150,7 @@ There are several reasons why the percentages may differ:
 - There are likely biased company/product affiliated reviewers who indisciminately give 5-star reviews.
 
 To further assess bias between Vine Voices reviews and non-Vine reviews, the following additional studies are proposed:
-- Analyze more reviews by selecting reviews with at least, say, 10 votes instead of the 20 votes required in this study.
+- Analyze more reviews by selecting reviews with at least, say, 10 total votes instead of the 20 total votes required in this study.
 - Repeat this study except check for bias in 1-star, 2-star, 3-star, and 4-star reviews.
     - If Vine Voices give fewer 4-star reviews, the conclusion of bias is strengthened. 
     - If Vine Voices give more 1-star and 2-star reviews, the conclusion of bias is strengthened.
